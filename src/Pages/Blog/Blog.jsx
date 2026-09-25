@@ -737,7 +737,7 @@ let updateFilterCategory = filterCategory.slice(0,6)
           <div className="flex items-center justify-between pt-2">
             {/* عدد المقالات */}
             <p className="text-sm font-bold text-gray-300/40">
-              عرض <span className="text-white">28</span> مقالات
+              عرض <span className="text-white">{filterCategory.length}</span> مقالات
             </p>
 
             {/* أزرار نمط العرض */}
@@ -824,16 +824,16 @@ let updateFilterCategory = filterCategory.slice(0,6)
           {/* 4. ديزاين الترقيم (Pagination) */}
           <div className="flex flex-col items-center gap-3 pt-8">
             <div className="flex items-center gap-2 dir-ltr">
-              <button className="w-10 h-10 rounded-xl bg-[#1a212b] border border-gray-800 text-gray-300 flex items-center justify-center hover:bg-[#232d3b] transition">
-                <HiChevronLeft className="text-lg" />
+              <button className="w-10 h-10 rounded-xl bg-black/80 border border-gray-800 text-gray-300 flex items-center justify-center hover:bg-[#232d3b] transition">
+                < HiChevronRight className="text-lg " />
               </button>
-              <button className="w-10 h-10 rounded-xl bg-[#1a212b] border border-gray-800 text-gray-300 font-semibold hover:bg-[#232d3b] transition">
+              <button className="w-10 h-10 rounded-xl bg-amber-500 text-white border border-gray-800 text-gray-300 font-semibold hover:bg-[#232d3b] transition">
                 1
               </button>
-              <button className="w-10 h-10 rounded-xl bg-amber-500 text-black font-bold shadow-lg shadow-amber-500/10">
+              <button className="w-10 h-10 rounded-xl  bg-[#1a212b] border border-gray-800 text-gray-300 font-semibold hover:bg-[#232d3b] transition">
                 2
               </button>
-              <button className="w-10 h-10 rounded-xl bg-[#1a212b] border border-gray-800 text-gray-300 font-semibold hover:bg-[#232d3b] transition">
+              <button className="w-10 h-10 rounded-xl  bg-[#1a212b] border border-gray-800 text-gray-300 font-semibold hover:bg-[#232d3b] transition">
                 3
               </button>
               <button className="w-10 h-10 rounded-xl bg-[#1a212b] border border-gray-800 text-gray-300 font-semibold hover:bg-[#232d3b] transition">
@@ -843,10 +843,10 @@ let updateFilterCategory = filterCategory.slice(0,6)
                 5
               </button>
               <button className="w-10 h-10 rounded-xl bg-[#1a212b] border border-gray-800 text-gray-300 flex items-center justify-center hover:bg-[#232d3b] transition">
-                <HiChevronRight className="text-lg" />
+                <HiChevronLeft className="text-lg" />
               </button>
             </div>
-            <p className="text-xs text-gray-400">صفحة 2 من 5</p>
+            <p className="text-xs text-gray-400">صفحة 1 من 5</p>
           </div>
         </div>
       </section>
