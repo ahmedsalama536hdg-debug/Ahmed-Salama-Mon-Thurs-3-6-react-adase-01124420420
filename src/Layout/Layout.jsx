@@ -10,7 +10,7 @@ export default function Layout() {
 
      <Navbar/>
 
-     <div className=" pt-15">
+     <div className=" pt-10">
          <Outlet/>
      </div>
 

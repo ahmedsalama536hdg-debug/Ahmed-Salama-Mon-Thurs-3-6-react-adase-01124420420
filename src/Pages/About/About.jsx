@@ -676,7 +676,7 @@ window.scrollTo({
   return (
     <div>
 
-         <section id="?" className="relative bg-black text-white min-h-screen flex flex-col justify-center items-center px-4 py-16 overflow-hidden mt-7">
+         <section id="?" className="relative bg-black text-white min-h-screen flex flex-col justify-center items-center px-4 py-16 overflow-hidden mt-4">
           <div className="absolute top-32 left-32 w-[350px] h-[350px] bg-orange-400 rounded-full blur-[140px] opacity-26 pointer-events-none z-0"></div>
             <div className="absolute inset-0 bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:3rem_3rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-40" />
             <div className="relative z-10 max-w-4xl mx-auto text-center">
